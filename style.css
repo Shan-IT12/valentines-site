@@ -104,7 +104,7 @@ body::before {
 }
 
 #envelope.open #flap {
-  transform: rotate(180deg);
+  transform: rotateX(180deg);
 }
 
 #envelopeBody {
@@ -242,4 +242,11 @@ button {
   margin-bottom: 16px;
   border: 3px solid #ffb3c6;
   box-shadow: 0 0 20px rgba(255, 107, 138, 0.4);
+}
+
+#screen2 {
+  max-height: 80vh; 
+  overflow-y: auto; 
+  scrollbar-width: thin; 
+  scrollbar-color: #e8254a #ffe0e8; 
 }
